@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
-        <!--View Controller-->
+        <!--Crust View Controller-->
         <scene sceneID="xtD-DZ-7Gx">
             <objects>
-                <viewController id="fXl-Cv-kNb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Crust" id="fXl-Cv-kNb" customClass="CrustViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aa7-5H-dUW"/>
                         <viewControllerLayoutGuide type="bottom" id="U5t-bw-MVA"/>
@@ -99,6 +99,13 @@
                                     <segue destination="Vxj-4n-p3w" kind="show" id="jLz-8m-Gg1"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cost:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0Y-Fx-InB">
+                                <rect key="frame" x="112" y="626" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -107,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="822" y="38"/>
         </scene>
-        <!--View Controller-->
+        <!--Toppings View Controller-->
         <scene sceneID="GwC-0l-o7d">
             <objects>
-                <viewController id="Vxj-4n-p3w" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Toppings" id="Vxj-4n-p3w" customClass="ToppingsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S3S-zh-bcq"/>
                         <viewControllerLayoutGuide type="bottom" id="rEn-yo-KJE"/>
@@ -145,12 +152,12 @@
         <!--View Controller-->
         <scene sceneID="TUI-gq-1Xl">
             <objects>
-                <viewController id="naA-70-fLf" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Receipt" id="naA-70-fLf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v8G-FJ-O0x"/>
                         <viewControllerLayoutGuide type="bottom" id="JIA-qu-k5I"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fnq-lE-r7c">
+                    <view key="view" contentMode="scaleToFill" id="fnq-lE-r7c" customClass="ReceiptViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
